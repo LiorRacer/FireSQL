@@ -1,5 +1,5 @@
 import firebase from 'firebase/app';
-import 'firebase/firestore';
+// import 'firebase/firestore';
 import { FireSQLOptions, QueryOptions } from './shared';
 import { parse } from './sql-parser';
 import { DocumentData, assert } from './utils';

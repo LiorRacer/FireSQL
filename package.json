@@ -1,6 +1,6 @@
 {
-  "name": "firesql-src",
-  "version": "2.0.1",
+  "name": "firesql",
+  "version": "2.0.2",
   "description": "Query Cloud Firestore for Firebase using SQL",
   "keywords": [],
   "main": "out/firesql.js",
@@ -8,7 +8,7 @@
   "author": "Josep Sayol <josep.sayol@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsayol/FireSQL"
+    "url": "https://github.com/LiorRacer/FireSQL"
   },
   "license": "MIT",
   "engines": {
@@ -26,7 +26,7 @@
     "test:setup": "ts-node --project tools/tsconfig.json tools/tests/test-setup.ts",
     "ts-node": "ts-node",
     "release:prepare": "yarn run build && ts-node tools/prepare-release.ts",
-    "npm:publish": "cd release && npm publish",
+    "npm:publish": "cd release && npm publish  @superquery/firesql",
     "pegjs": "pegjs --extra-options-file pegjs.config.json"
   },
   "prettier": {
@@ -43,7 +43,7 @@
     "chalk": "^2.4.1",
     "colors": "^1.3.2",
     "cross-env": "^5.2.0",
-    "firebase": "^6.0.0",
+    "firebase": "^6.6.2",
     "firebase-tools": "^6.1.0",
     "fs-extra": "^7.0.1",
     "inquirer": "^6.2.0",
