@@ -1,5 +1,5 @@
 {
-  "name": "firesql",
+  "name": "@superquery/firesql",
   "version": "2.0.2",
   "description": "Query Cloud Firestore for Firebase using SQL",
   "keywords": [],
@@ -26,7 +26,7 @@
     "test:setup": "ts-node --project tools/tsconfig.json tools/tests/test-setup.ts",
     "ts-node": "ts-node",
     "release:prepare": "yarn run build && ts-node tools/prepare-release.ts",
-    "npm:publish": "cd release && npm publish  @superquery/firesql",
+    "npm:publish": "cd release && npm publish",
     "pegjs": "pegjs --extra-options-file pegjs.config.json"
   },
   "prettier": {
